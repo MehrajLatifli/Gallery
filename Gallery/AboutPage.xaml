@@ -1,0 +1,24 @@
+﻿<Page x:Class="Gallery.AboutPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Gallery"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AboutPage" Background="Aqua">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <!--<Image x:Name="imagebox1" Grid.Row="0"  Source="{Binding Files.FilePath,UpdateSourceTrigger=PropertyChanged}"/>-->
+        <StackPanel x:Name="StackList" Grid.Row="0" Height="56">
+            <TextBlock x:Name="textbox1" FontSize="50" Text="MyGalery" Margin="15,0,0,0" FontFamily="Freestyle Script"  Foreground="White"></TextBlock>
+        </StackPanel>
+        <StackPanel x:Name="StackList2" Grid.Row="1" Height="56">
+            <TextBlock x:Name="textbox2" FontSize="50" Text="Baku 2021                                     by Mehraj" Margin="15,0,0,0" FontFamily="Freestyle Script"  Foreground="White"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
