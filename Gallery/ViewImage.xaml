@@ -25,7 +25,7 @@
 
                
 
-                <Label Grid.Column="1" x:Name="MyGalery"   FontSize="36" Content="MyGalery" Margin="48,6,-131,5" Foreground="White" BorderThickness="0" Background="{StaticResource MenuBackroundColor}" BorderBrush="{StaticResource MenuBackroundColor}" FontFamily="Freestyle Script"/>
+                <Label Grid.Column="1" x:Name="MyGallery"   FontSize="36" Content="My Gallery" Margin="48,6,-131,5" Foreground="White" BorderThickness="0" Background="{StaticResource MenuBackroundColor}" BorderBrush="{StaticResource MenuBackroundColor}" FontFamily="Freestyle Script"/>
 
             </Grid>
 
