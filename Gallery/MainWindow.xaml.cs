@@ -230,6 +230,7 @@ namespace Gallery
 
             if (string.IsNullOrEmpty(SearchTextbox.Text)==false)
             {
+                Listbox1.ItemsSource = null;
                 Listbox1.Items.Clear();
 
                 foreach (var item in FileList)
