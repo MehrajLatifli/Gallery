@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
         <!--<Image x:Name="imagebox1" Grid.Row="0"  Source="{Binding Files.FilePath,UpdateSourceTrigger=PropertyChanged}"/>-->
         <StackPanel x:Name="StackList" Grid.Row="0" Height="56">
-            <TextBlock x:Name="textbox1" FontSize="50" Text="MyGalery" Margin="15,0,0,0" FontFamily="Freestyle Script"  Foreground="White"></TextBlock>
+            <TextBlock x:Name="textbox1" FontSize="50" Text="My Gallery" Margin="15,0,0,0" FontFamily="Freestyle Script"  Foreground="White"></TextBlock>
         </StackPanel>
         <StackPanel x:Name="StackList2" Grid.Row="1" Height="56">
             <TextBlock x:Name="textbox2" FontSize="50" Text="Baku 2021                                     by Mehraj" Margin="15,0,0,0" FontFamily="Freestyle Script"  Foreground="White"></TextBlock>

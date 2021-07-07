@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gallery"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="950" Icon="logoG.png"  >
+        Title="My Gallery" Height="800" Width="950" Icon="logoG.png"  >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1.5*"></RowDefinition>
@@ -38,7 +38,7 @@
                 </Menu>
 
                 <TextBox x:Name="SearchTextbox" Grid.Column="1"  BorderThickness="5" BorderBrush="{StaticResource MenuBackroundColor}" Foreground="{StaticResource MenuBackroundColor}" FontWeight="Bold" IsUndoEnabled="False" AcceptsReturn="True" AcceptsTab="True" FontSize="30" VerticalContentAlignment="Center" Width="300" MaxLength="50" MaxLines="50" Focusable="True" TextWrapping="WrapWithOverflow" VerticalScrollBarVisibility="Auto" Padding="2,0,0,0" TextChanged="SearchTextbox_TextChanged"/>
-                <Label x:Name="MyGalery" Grid.Column="3" Margin="48,6,-131,5" Foreground="White" BorderThickness="0" Background="{StaticResource MenuBackroundColor}" BorderBrush="{StaticResource MenuBackroundColor}" FontFamily="Freestyle Script"   FontSize="36" Content="MyGalery"/>
+                <Label x:Name="MyGallery" Grid.Column="3" Margin="48,6,-143,5" Foreground="White" BorderThickness="0" Background="{StaticResource MenuBackroundColor}" BorderBrush="{StaticResource MenuBackroundColor}" FontFamily="Freestyle Script"   FontSize="36" Content="My Gallery"/>
                 <Image Grid.Column="3" Source="logoG.png" Margin="217,6,-231,5"></Image>
             </Grid>
 
