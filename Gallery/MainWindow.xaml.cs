@@ -226,7 +226,7 @@ namespace Gallery
         private void SearchTextbox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
-
+            Listbox1.ItemsSource = null;
 
             if (string.IsNullOrEmpty(SearchTextbox.Text)==false)
             {
